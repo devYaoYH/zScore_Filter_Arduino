@@ -5,7 +5,7 @@ All credit for algo goes to: https://stackoverflow.com/questions/22583391/peak-s
 
 I've packaged the algorithm as a class in Arduino to make it easier to attach to sensors.
 
-```
+```c
 //Usage sample
 #include "zFilter.h"
 zFilter* detector = new zFilter();
