@@ -99,18 +99,6 @@ int zFilter::filter(double dataPt){
   return sig;
 }
 
-double zFilter::getAvg(){
-  return avg[idx%HISTORY];
-}
-
-double zFilter::getStd(){
-  return std[idx%HISTORY];
-}
-
-double zFilter::getData(){
-  return data[idx%HISTORY];
-}
-
 zFilter::~zFilter(){
   delete data;
   delete avg;

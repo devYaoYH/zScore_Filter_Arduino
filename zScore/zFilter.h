@@ -39,9 +39,6 @@ class zFilter{
     zFilter(double*);                 //Initialize with data array
     void configure(int, int, double); //Configure z-Score Filtering parameters
     int filter(double);               //Adds a new data point and returns peak status
-    double getAvg();
-    double getStd();
-    double getData();
   private:
     int idx;
     int HISTORY, lag, threshold;
